@@ -43,20 +43,3 @@ http://localhost:5050
 ├── .gitignore
 └── README.md
 ```
-
-## pgadminへの接続
-デフォルトのログインアカウントは以下の通り
-```
-USER：user@domain.com
-PASS：SuperSecret
-```
-
-データベースの追加は以下の通り
-```
-サーバー名：自由に決めて
-HOSTNAME：pgsql
-DBNAME：postgres
-USERNAME：postgres
-PASSWORD：example
-PORT:5432
-```
